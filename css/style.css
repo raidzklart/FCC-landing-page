@@ -1,5 +1,29 @@
-@media only screen and (max-width: 600px){
-  body{
-  display: flex;
+@media only screen and (max-width: 600px) {
+  body {
+    display: flex;
+  }
 }
+
+body {
+  background-color: #e1f5fe;
+}
+
+.brand-logo {
+  margin-left: 2em;
+}
+
+.nav-list {
+  margin-right: 2em;
+}
+
+#main-content {
+  padding-top: 2em;
+}
+
+.sidenav {
+  padding-top: 2em;
+}
+
+.sidenav-overlay {
+  background-color: rgba(255, 255, 255, 0.1) !important;
 }

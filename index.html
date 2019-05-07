@@ -4,20 +4,184 @@
 <head>
   <meta charset="UTF-8">
   <title>A Pen by Thomas</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!--Font awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+  <header class="navbar-fixed" id="header">
+    <nav id="nav-bar">
+      <div class="nav-wrapper light-blue lighten-3">
+        <a href="#" class="brand-logo black-text hide-on-med-and-down"><img src="#" class="hide" alt="" id="header-img">
+          A
+          wonderful product</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right nav-list hide-on-med-and-down">
+          <li><a href="#features" class="black-text nav-link">Features</a></li>
+          <li><a href="#how-it-works" class="black-text nav-link">How it works</a></li>
+          <li><a href="#pricing" class="black-text nav-link">Pricing</a></li>
+        </ul>
+      </div>
+    </nav>
+    <ul style="background-color: #fff;" class="sidenav" id="mobile-demo">
+      <li><a href="#features">Features</a></li>
+      <div class="divider"></div>
+      <li><a href="#how-it-works">How it works</a></li>
+      <div class="divider"></div>
+      <li><a href="pricing">Pricing</a></li>
+    </ul>
+  </header>
+  <div class="container" id="main-content">
+    <!-- Email input -->
+    <section class="row">
+      <div class="col s2 hide-on-med-and-down"></div>
+      <div class="col l8 s12">
+        <div class="card center">
+          <div class="card-content">
+            <h3 class="center">The best product around</h3>
+            <p class="center">Sign up below for updates!</p>
+            <form class="center" id="form" action="https://www.freecodecamp.com/email-submit">
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="email" type="email" name="email" class="validate" placeholder="Enter email...">
+                </div>
+              </div>
+              <div class="row">
+                <input type="submit" value="Submit" id="submit"
+                  class="waves-effect waves-light btn light-blue lighten-3 black-text">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col s2 hide-on-med-and-down"></div>
+    </section>
+
+    <section id="features">
+      <div class="row">
+        <div class="col l4 hide-on-med-and-down">
+          <i class="fas fa-band-aid fa-10x"></i>
+        </div>
+        <div class="col l8">
+          <h4>Fixes every problem you could ever have.</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga rerum quaerat illum aliquam impedit sint vitae
+            excepturi eius nobis. Voluptates asperiores molestiae omnis illo ducimus quis repellat exercitationem ab
+            incidunt.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col l4 hide-on-med-and-down">
+          <i class="fas fa-smile-beam fa-10x"></i>
+        </div>
+        <div class="col l8">
+          <h4>Makes you super happy.</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga rerum quaerat illum aliquam impedit sint vitae
+            excepturi eius nobis. Voluptates asperiores molestiae omnis illo ducimus quis repellat exercitationem ab
+            incidunt.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col l4 hide-on-med-and-down">
+          <i class="fas fa-money-bill-wave fa-10x"></i>
+        </div>
+        <div class="col l8">
+          <h4>You'll be richer than ever.</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga rerum quaerat illum aliquam impedit sint vitae
+            excepturi eius nobis. Voluptates asperiores molestiae omnis illo ducimus quis repellat exercitationem ab
+            incidunt.
+          </p>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="how-it-works">
+      <div class="video-container">
+        <iframe width="853" height="480" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen
+          id="video"></iframe>
+      </div>
+    </section>
+    <section id="pricing">
+      <div class="row">
+        <div class="col l4 s12">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="assets/images/carlos-bryan-1557191-unsplash.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Cheap product<i
+                  class="material-icons right">more_vert</i></span>
+              <p>£200</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Cheap product<i
+                  class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col l4 s12">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="assets/images/charles-postiaux-1551992-unsplash.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Well priced product<i
+                  class="material-icons right">more_vert</i></span>
+              <p>£2,000</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Well priced product<i
+                  class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col l4 s12">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="assets/images/martin-sanchez-1070900-unsplash.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Premium product<i
+                  class="material-icons right">more_vert</i></span>
+              <p>£2,000,000</p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Premium product<i
+                  class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p class="center">All rights reserved 2019 &copy;. Thomas Christopher</p>
+    </footer>
+  </div>
 
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   <!--JavaScript at end of body for optimized loading-->
-  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    M.AutoInit();
+  </script>
 </body>
 
 </html>
