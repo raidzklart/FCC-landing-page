@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #e1f5fe;
+  background-color: #e0f2f1;
 }
 
 .brand-logo {
@@ -26,4 +26,8 @@ body {
 
 .sidenav-overlay {
   background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+#pricing {
+  padding-top: 2em;
 }
