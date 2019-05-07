@@ -1,3 +1,3 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/raidzklart/pen/gyOoGV.
+My interpretation of FreeCodeCamp Responsive Web Design Projects - Build a Product Landing Page.
 
  
