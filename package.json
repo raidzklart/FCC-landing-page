@@ -1,0 +1,23 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "A Pen created at CodePen.io. You can find this one at https://codepen.io/raidzklart/pen/gyOoGV.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raidzklart/FCC-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raidzklart/FCC-landing-page/issues"
+  },
+  "homepage": "https://raidzklart.github.io/FCC-landing-page",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
